@@ -1,0 +1,23 @@
+============================================================
+TRACKING REPORT — W1906890 Zaamin Qadeer
+============================================================
+
+SYSTEM ARCHITECTURE
+  Detection     : YOLOv8n
+  Classification: Custom CNN (ResNet50 backbone)
+  Tracking      : DeepSORT (optimised)
+
+RESULTS
+  Frames processed : 4860
+  Total detections : 6306
+  Unique track IDs : 60
+
+VEHICLE CLASS BREAKDOWN
+  Car         : 9173
+
+TRACKER PARAMETERS (optimised for UK urban occlusion)
+  max_age          : 50  (frames before track is dropped)
+  n_init           : 2   (frames to confirm a new track)
+  nn_budget        : 200 (appearance gallery size)
+  max_iou_distance : 0.5 (prevents ID merging)
+  embedder         : MobileNet (appearance re-id)

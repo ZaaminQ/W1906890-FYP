@@ -1,0 +1,23 @@
+{
+  "system": {
+    "detection": "YOLOv8n",
+    "classification": "Custom CNN (ResNet50 backbone, 4-class vehicle head)",
+    "tracking": "DeepSORT (max_age=30, n_init=3, nn_budget=100, dashcam-optimised)",
+    "dataset": "Trained on COCO128; target domain Oxford Town Centre"
+  },
+  "results": {
+    "frames_processed": 4860,
+    "total_detections": 6306,
+    "unique_track_ids": 60,
+    "class_breakdown": {
+      "Car": 9173
+    }
+  },
+  "tracker_params": {
+    "max_age": 30,
+    "n_init": 3,
+    "nn_budget": 100,
+    "max_iou_distance": 0.99,
+    "embedder": "mobilenet"
+  }
+}
