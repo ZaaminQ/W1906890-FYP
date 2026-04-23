@@ -34,11 +34,5 @@ Results are saved to output_hybrid/
     tracking_report_hybrid.txt      tracking stats report
     tracking_report_hybrid.json     machine readable report
 
-========================================
-RESULTS
-========================================
-
-    CNN Validation Accuracy     96.15%
-    Detection mAP (IoU 0.5)     0.752
-    Unique Vehicles Tracked     60
-    Frames Processed            4,860
+Full project files including videos and model weights available here on google drive
+https://drive.google.com/drive/folders/1gKXeCp9J9sbwoEvpiym8YNTVQAKsnlnG?usp=drive_link
